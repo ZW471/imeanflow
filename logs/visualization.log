@@ -1,0 +1,31 @@
+Initializing torch distributed with backend=nccl and init_method=env://
+Torch distributed initialized.
+Working directory: ./visualize
+Arguments:
+Namespace(mode='sample',
+workdir='./visualize',
+ckpt_path='./ckpt/iMF-B-2.pth',
+model='MiT_B_2',
+sample_seed=42,
+num_sampling_steps=1,
+cfg_omega=8.0,
+interval_min=0.4,
+interval_max=0.65,
+num_images=50000,
+gen_bsz=64,
+save_samples=False,
+fid_ref='https://raw.githubusercontent.com/LTH14/JiT/refs/heads/main/fid_stats/jit_in256_stats.npz')
+Cannot initialize model with low cpu memory usage because `accelerate` was not found in the environment. Defaulting to `low_cpu_mem_usage=False`. It is strongly recommended to install `accelerate` for faster and less memory-intense model loading. You can do so with: 
+```
+pip install accelerate
+```
+.
+/vepfs-dev/zhiyu/exploration/imeanflow/.venv/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py:202: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+Loading checkpoint from ./ckpt/iMF-B-2.pth...
+Checkpoint loaded.
+Sampled image saved to ./visualize/sampled_image.png
+[rank0]:[W207 16:10:51.227654783 ProcessGroupNCCL.cpp:1524] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+bash: __jetbrains_intellij_command_precmd: command not found
+[?2004hroot@di-20250915141940-4gkrw:/vepfs-dev/zhiyu/exploration/imeanflow# exit
+[?2004lexit

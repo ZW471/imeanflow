@@ -4,3 +4,5 @@
 
 pretrained/
 **/*.png
+/ckpt/
+.idea/

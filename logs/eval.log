@@ -1,0 +1,264 @@
+Initializing torch distributed with backend=nccl and init_method=env://
+Initializing torch distributed with backend=nccl and init_method=env://
+Initializing torch distributed with backend=nccl and init_method=env://
+Initializing torch distributed with backend=nccl and init_method=env://
+Initializing torch distributed with backend=nccl and init_method=env://
+Initializing torch distributed with backend=nccl and init_method=env://
+Initializing torch distributed with backend=nccl and init_method=env://
+Initializing torch distributed with backend=nccl and init_method=env://
+Torch distributed initialized.
+Working directory: ./xl2_fid_output
+Arguments:
+Namespace(mode='evaluate',
+workdir='./xl2_fid_output',
+ckpt_path='./ckpt/iMF-XL-2.pth',
+model='MiT_XL_2',
+sample_seed=42,
+num_sampling_steps=1,
+cfg_omega=8.0,
+interval_min=0.42,
+interval_max=0.62,
+num_images=50000,
+gen_bsz=32,
+save_samples=True,
+fid_ref='https://raw.githubusercontent.com/LTH14/JiT/refs/heads/main/fid_stats/jit_in256_stats.npz')
+/vepfs-dev/zhiyu/exploration/imeanflow/.venv/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py:202: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+/vepfs-dev/zhiyu/exploration/imeanflow/.venv/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py:202: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+/vepfs-dev/zhiyu/exploration/imeanflow/.venv/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py:202: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+/vepfs-dev/zhiyu/exploration/imeanflow/.venv/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py:202: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+/vepfs-dev/zhiyu/exploration/imeanflow/.venv/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py:202: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+/vepfs-dev/zhiyu/exploration/imeanflow/.venv/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py:202: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+/vepfs-dev/zhiyu/exploration/imeanflow/.venv/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py:202: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+/vepfs-dev/zhiyu/exploration/imeanflow/.venv/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py:202: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading checkpoint from ./ckpt/iMF-XL-2.pth...
+Loading checkpoint from ./ckpt/iMF-XL-2.pth...
+Loading checkpoint from ./ckpt/iMF-XL-2.pth...
+Loading checkpoint from ./ckpt/iMF-XL-2.pth...
+Loading checkpoint from ./ckpt/iMF-XL-2.pth...
+Loading checkpoint from ./ckpt/iMF-XL-2.pth...
+Loading checkpoint from ./ckpt/iMF-XL-2.pth...
+Loading checkpoint from ./ckpt/iMF-XL-2.pth...
+Checkpoint loaded.
+Checkpoint loaded.
+Checkpoint loaded.
+Checkpoint loaded.
+Checkpoint loaded.
+Checkpoint loaded.
+Checkpoint loaded.
+Checkpoint loaded.
+Save to: ./xl2_fid_output/fid_outputs
+Generation step 0/196
+Generation step 1/196
+Generation step 2/196
+Generation step 3/196
+Generation step 4/196
+Generation step 5/196
+Generation step 6/196
+Generation step 7/196
+Generation step 8/196
+Generation step 9/196
+Generation step 10/196
+Generation step 11/196
+Generation step 12/196
+Generation step 13/196
+Generation step 14/196
+Generation step 15/196
+Generation step 16/196
+Generation step 17/196
+Generation step 18/196
+Generation step 19/196
+Generation step 20/196
+Generation step 21/196
+Generation step 22/196
+Generation step 23/196
+Generation step 24/196
+Generation step 25/196
+Generation step 26/196
+Generation step 27/196
+Generation step 28/196
+Generation step 29/196
+Generation step 30/196
+Generation step 31/196
+Generation step 32/196
+Generation step 33/196
+Generation step 34/196
+Generation step 35/196
+Generation step 36/196
+Generation step 37/196
+Generation step 38/196
+Generation step 39/196
+Generation step 40/196
+Generation step 41/196
+Generation step 42/196
+Generation step 43/196
+Generation step 44/196
+Generation step 45/196
+Generation step 46/196
+Generation step 47/196
+Generation step 48/196
+Generation step 49/196
+Generation step 50/196
+Generation step 51/196
+Generation step 52/196
+Generation step 53/196
+Generation step 54/196
+Generation step 55/196
+Generation step 56/196
+Generation step 57/196
+Generation step 58/196
+Generation step 59/196
+Generation step 60/196
+Generation step 61/196
+Generation step 62/196
+Generation step 63/196
+Generation step 64/196
+Generation step 65/196
+Generation step 66/196
+Generation step 67/196
+Generation step 68/196
+Generation step 69/196
+Generation step 70/196
+Generation step 71/196
+Generation step 72/196
+Generation step 73/196
+Generation step 74/196
+Generation step 75/196
+Generation step 76/196
+Generation step 77/196
+Generation step 78/196
+Generation step 79/196
+Generation step 80/196
+Generation step 81/196
+Generation step 82/196
+Generation step 83/196
+Generation step 84/196
+Generation step 85/196
+Generation step 86/196
+Generation step 87/196
+Generation step 88/196
+Generation step 89/196
+Generation step 90/196
+Generation step 91/196
+Generation step 92/196
+Generation step 93/196
+Generation step 94/196
+Generation step 95/196
+Generation step 96/196
+Generation step 97/196
+Generation step 98/196
+Generation step 99/196
+Generation step 100/196
+Generation step 101/196
+Generation step 102/196
+Generation step 103/196
+Generation step 104/196
+Generation step 105/196
+Generation step 106/196
+Generation step 107/196
+Generation step 108/196
+Generation step 109/196
+Generation step 110/196
+Generation step 111/196
+Generation step 112/196
+Generation step 113/196
+Generation step 114/196
+Generation step 115/196
+Generation step 116/196
+Generation step 117/196
+Generation step 118/196
+Generation step 119/196
+Generation step 120/196
+Generation step 121/196
+Generation step 122/196
+Generation step 123/196
+Generation step 124/196
+Generation step 125/196
+Generation step 126/196
+Generation step 127/196
+Generation step 128/196
+Generation step 129/196
+Generation step 130/196
+Generation step 131/196
+Generation step 132/196
+Generation step 133/196
+Generation step 134/196
+Generation step 135/196
+Generation step 136/196
+Generation step 137/196
+Generation step 138/196
+Generation step 139/196
+Generation step 140/196
+Generation step 141/196
+Generation step 142/196
+Generation step 143/196
+Generation step 144/196
+Generation step 145/196
+Generation step 146/196
+Generation step 147/196
+Generation step 148/196
+Generation step 149/196
+Generation step 150/196
+Generation step 151/196
+Generation step 152/196
+Generation step 153/196
+Generation step 154/196
+Generation step 155/196
+Generation step 156/196
+Generation step 157/196
+Generation step 158/196
+Generation step 159/196
+Generation step 160/196
+Generation step 161/196
+Generation step 162/196
+Generation step 163/196
+Generation step 164/196
+Generation step 165/196
+Generation step 166/196
+Generation step 167/196
+Generation step 168/196
+Generation step 169/196
+Generation step 170/196
+Generation step 171/196
+Generation step 172/196
+Generation step 173/196
+Generation step 174/196
+Generation step 175/196
+Generation step 176/196
+Generation step 177/196
+Generation step 178/196
+Generation step 179/196
+Generation step 180/196
+Generation step 181/196
+Generation step 182/196
+Generation step 183/196
+Generation step 184/196
+Generation step 185/196
+Generation step 186/196
+Generation step 187/196
+Generation step 188/196
+Generation step 189/196
+Generation step 190/196
+Generation step 191/196
+Generation step 192/196
+Generation step 193/196
+Generation step 194/196
+Generation step 195/196
+/vepfs-dev/zhiyu/exploration/imeanflow/.venv/lib/python3.13/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  warnings.warn(  # warn only once
+[rank0]:[W207 16:45:54.455367956 ProcessGroupNCCL.cpp:5072] Guessing device ID based on global rank. This can cause a hang if rank to GPU mapping is heterogeneous. You can specify device_id in init_process_group()
+Calculating FID...
+/vepfs-dev/zhiyu/exploration/imeanflow/.venv/lib/python3.13/site-packages/torch_fidelity/datasets.py:16: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  img = torch.ByteTensor(torch.ByteStorage.from_buffer(img.tobytes())).view(height, width, 3)
+Computing fid stats...
+Downloading https://raw.githubusercontent.com/LTH14/JiT/refs/heads/main/fid_stats/jit_in256_stats.npz to /tmp/fid_ref_cache/jit_in256_stats.npz...
+FID: 1.723343663158289, Inception Score: 279.9292228247347
+[rank0]:[W207 16:46:52.388066424 ProcessGroupNCCL.cpp:1524] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
